@@ -1,0 +1,12 @@
+package ch2_10_accessModifierPracticeCode;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		BirthDay birthDayManager = new BirthDay();
+		
+		
+
+	}
+
+}
