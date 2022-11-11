@@ -1,0 +1,10 @@
+package ch2_04;
+
+public class TestMainClass {
+
+	public static void main(String[] args) {
+		Student studentLee = new Student();
+
+	}
+
+}

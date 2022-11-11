@@ -1,0 +1,14 @@
+package ch2_06;
+
+public class Restaurant {
+	int orderID;
+	int orderDate;
+	int orderTime;
+	int orderPrice;
+	int menuNumber;
+	int phoneNumber;
+	String orderAddress;
+	
+	public Rest
+
+}

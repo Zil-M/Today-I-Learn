@@ -1,0 +1,15 @@
+package ch2_09;
+
+public class Subject {
+	protected String name;
+	int id;
+	int score;
+	
+	public Subject() {}
+	
+	public Subject(String name, int id, int score) {
+		this.name = name;
+		this.id = id;
+		this.score = score;
+	}
+}

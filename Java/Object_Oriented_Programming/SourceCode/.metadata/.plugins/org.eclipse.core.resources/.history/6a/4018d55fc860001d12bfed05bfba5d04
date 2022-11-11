@@ -1,0 +1,10 @@
+package ch2_09;
+
+public class Student {
+	String name;
+	int id;
+	
+	Subject korean;
+	Subject math;
+
+}

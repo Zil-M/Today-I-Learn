@@ -1,0 +1,10 @@
+package ch2_03;
+
+public class FuntionTest {
+	public static int addNum(int firstNumber, int secondNumber) {
+		int result;
+		result = firstNumber + secondNumber;
+		return result;
+	}
+
+}

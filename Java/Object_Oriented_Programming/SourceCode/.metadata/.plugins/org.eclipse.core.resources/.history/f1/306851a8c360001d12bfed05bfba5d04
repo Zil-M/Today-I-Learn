@@ -1,0 +1,17 @@
+package ch2_06;
+
+public class TestMainClass {
+
+	public static void main(String[] args) {
+		
+		int HEIGHT = 180;
+		int WEIGHT = 78;
+		int AGE = 37;
+		String NAME = "Tomas";
+		
+		People user1 = new People(HEIGHT, WEIGHT, AGE, NAME);
+		user1.showPeopleInfo();
+
+	}
+
+}
