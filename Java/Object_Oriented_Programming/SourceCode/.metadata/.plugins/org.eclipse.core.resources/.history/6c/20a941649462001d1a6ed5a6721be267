@@ -1,0 +1,10 @@
+package ch2_11_encapsulation;
+
+public class ReportGenerator {
+	StringBuffer buffer = new StringBuffer();
+	
+	private String title;
+	private String line;
+	
+
+}

@@ -1,0 +1,9 @@
+package ch2_11_encapsulation;
+
+public class ReportGenerator {
+	
+	private String title;
+	private String line;
+	
+
+}
