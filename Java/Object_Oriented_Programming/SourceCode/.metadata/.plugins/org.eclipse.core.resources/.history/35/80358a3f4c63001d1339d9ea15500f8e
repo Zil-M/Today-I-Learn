@@ -5,10 +5,6 @@ public class GameUser {
 	private int userLevel;
 	private int userExp;
 	
-	public GameUser() {
-		this("GeustUser", 1);
-	}
-	
 	public GameUser(String userNickname, int userLevel) {
 		this.userNickname = userNickname;
 		this.userLevel = userLevel;
@@ -20,7 +16,7 @@ public class GameUser {
 	}
 	
 	public static void main(String[] args) {
-		GameUser user1 = new GameUser();
+		GameUser user1 = new GameUser("유저1", 1);
 		user1.showUserInfo();
 	}
 }

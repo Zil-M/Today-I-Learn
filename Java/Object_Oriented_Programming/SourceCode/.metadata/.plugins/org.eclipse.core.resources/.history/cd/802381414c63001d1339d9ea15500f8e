@@ -20,7 +20,7 @@ public class GameUser {
 	}
 	
 	public static void main(String[] args) {
-		GameUser user1 = new GameUser();
+		GameUser user1 = new GameUser("유저1", 1);
 		user1.showUserInfo();
 	}
 }
