@@ -16,7 +16,7 @@ public class GameUser {
 	}
 	
 	public void showUserInfo() {
-		System.out.printf("%s, %d, %d\n", userNickname, userLevel, userExp);
+		System.out.printf("%s, %d, %d", userNickname, userLevel, userExp);
 	}
 	
 	public GameUser getGameUserObject() {
