@@ -1,0 +1,9 @@
+package ch2_12_this;
+
+public class GameUser {
+	private String userName;
+	private int userID;
+	private int userLevel;
+	private int userCreateDate;
+
+}
