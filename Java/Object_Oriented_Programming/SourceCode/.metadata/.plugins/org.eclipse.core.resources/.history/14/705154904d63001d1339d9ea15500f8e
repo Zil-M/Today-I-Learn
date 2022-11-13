@@ -1,0 +1,17 @@
+package ch2_12_this;
+
+public class GameUser {
+	private String userNickname;
+	private int userLevel;
+	private int userExp;
+	
+
+	public GameUser getGameUserObject() {
+		return this;
+	}
+	
+	public static void main(String[] args) {
+		GameUser user1 = new GameUser();
+		System.out.println(user1.getGameUserObject());
+	}
+}

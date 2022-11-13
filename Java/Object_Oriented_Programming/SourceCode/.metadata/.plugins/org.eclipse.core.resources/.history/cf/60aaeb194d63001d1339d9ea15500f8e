@@ -20,12 +20,11 @@ public class GameUser {
 	}
 	
 	public GameUser getGameUserObject() {
-		return this;
+		return this
 	}
 	
 	public static void main(String[] args) {
 		GameUser user1 = new GameUser();
 		user1.showUserInfo();
-		System.out.println(user1.getGameUserObject());
 	}
 }
