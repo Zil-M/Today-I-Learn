@@ -1,0 +1,7 @@
+package ch2_16_static;
+
+public class PostGenerator {
+	static int postID;
+	String postName;
+
+}
