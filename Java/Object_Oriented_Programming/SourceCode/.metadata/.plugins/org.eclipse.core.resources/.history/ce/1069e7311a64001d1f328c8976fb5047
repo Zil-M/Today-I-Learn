@@ -23,7 +23,6 @@ public class PostGenerator {
 		System.out.println(PostGenerator.postIndex);
 		
 		PostGenerator post1 = new PostGenerator("가입인사");
-		PostGenerator.setPostIndex(10);
 		PostGenerator post2 = new PostGenerator("static 질문글");
 		PostGenerator post3 = new PostGenerator("테스트코드");
 		

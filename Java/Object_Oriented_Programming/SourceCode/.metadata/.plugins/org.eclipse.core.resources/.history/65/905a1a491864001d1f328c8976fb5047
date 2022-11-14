@@ -1,7 +1,7 @@
 package ch2_16_static;
 
 public class PostGenerator {
-	private static int postIndex = 0;
+	static int postIndex = 0;
 	private int postID;
 	private String postName;
 	
@@ -9,10 +9,6 @@ public class PostGenerator {
 		postIndex++;
 		this.postID = postIndex;
 		this.postName = postName;
-	}
-	
-	public static void setPostIndex(int index) {
-		PostGenerator.postIndex = index;
 	}
 
 	public void showPostInfo() {
@@ -23,7 +19,6 @@ public class PostGenerator {
 		System.out.println(PostGenerator.postIndex);
 		
 		PostGenerator post1 = new PostGenerator("가입인사");
-		PostGenerator.setPostIndex(10);
 		PostGenerator post2 = new PostGenerator("static 질문글");
 		PostGenerator post3 = new PostGenerator("테스트코드");
 		
