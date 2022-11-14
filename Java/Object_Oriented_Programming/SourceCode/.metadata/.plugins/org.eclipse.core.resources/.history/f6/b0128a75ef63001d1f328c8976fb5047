@@ -22,5 +22,9 @@ public class TakeTransferTest {
 		studentTomas.takeBus(bus101);
 		studentTomas.takeSubway(subway1);
 		studentTomas.showInfo();
+		
+		
+
 	}
+
 }
