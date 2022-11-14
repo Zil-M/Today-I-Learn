@@ -1,0 +1,35 @@
+## 객체 사용 실습 예제
+학생이 지하철과 버스를 이용하는 경우를 객체로 구현하여 간단한 시뮬레이션을 제작한다.\
+\
+학생 객체는 이름과 소지한 돈, 2가지 속성을 가진다.
+지하철과 버스 객체는 운행번호, 이용객 수, 수익 금액, 이용 금액, 4가지 속성을 가진다.
+
+
+#### 학생 객체 - Student
+```java
+public class Student {
+	private String name;
+	private int money;
+	
+	public Student(String name, int money) {
+		this.name = name;
+		this.money = money;
+	}
+	
+	
+	public void takeBus(Bus bus) {
+		System.out.printf("%s는 %d번 버스에 탑승했다. (- %d원)\n",this.name, bus.getBus(), bus.getCost());
+		this.money -= bus.take();
+	}
+	
+	public void takeSubway(Subway subway) {
+		System.out.printf("%s는 %d번 지하철에 탑승했다. (- %d원)\n",this.name, subway.getSubway(), subway.getCost());
+		this.money -= subway.take();
+	}
+	
+	public void showInfo() {
+		System.out.printf("%s 님의 잔돈 : %d원\n", this.name, this.money);
+	}
+
+}
+```
