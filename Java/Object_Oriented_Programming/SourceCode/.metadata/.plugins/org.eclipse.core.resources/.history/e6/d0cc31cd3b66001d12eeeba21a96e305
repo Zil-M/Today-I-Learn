@@ -55,10 +55,7 @@ public class ArrayMainClass {
 		// sumfuntion();
 		
 		// array length 기능 에러 재현 코드
-		//dArrayTest();
-		
-		// array lenght 에러에서 count 코드 추가 코드
-		dArrayCountTest();
+		dArrayTest();
 	}
 	
 	

@@ -42,7 +42,7 @@ public class ArrayMainClass {
 		dArr[1] = 2.0;  count++;
 		dArr[2] = 3.0;  count++;
 				
-		for(int i = 0; i< count; i++) {
+		for(int i = 0; i< dArr.length; i++) {
 			total *= dArr[i];
 		}
 				
@@ -55,10 +55,7 @@ public class ArrayMainClass {
 		// sumfuntion();
 		
 		// array length 기능 에러 재현 코드
-		//dArrayTest();
-		
-		// array lenght 에러에서 count 코드 추가 코드
-		dArrayCountTest();
+		dArrayTest();
 	}
 	
 	
