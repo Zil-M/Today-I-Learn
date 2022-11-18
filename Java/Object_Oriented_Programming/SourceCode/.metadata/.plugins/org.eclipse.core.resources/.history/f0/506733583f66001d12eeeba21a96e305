@@ -62,6 +62,8 @@ public class ArrayMainClass {
 		for(char alpha : alpahbets) {
 			System.out.println(alpha +","+ (int)alpha);
 		}
+
+
 	}
 
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package ch2_06;
+package ch2_21_objectArray;
 
-public class TestMainClass {
+public class BookMainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
