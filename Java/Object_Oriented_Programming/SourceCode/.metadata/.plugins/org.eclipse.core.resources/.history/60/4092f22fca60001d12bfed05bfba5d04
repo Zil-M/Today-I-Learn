@@ -1,8 +1,0 @@
-package ch2_09;
-
-public class MainClass {
-	public static void main(String[] args) {
-		Student user1 = new Student(1, "hong");
-	}
-
-}
