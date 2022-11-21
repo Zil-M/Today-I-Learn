@@ -1,0 +1,24 @@
+package ch2_22_N_Array;
+
+public class NArrayMainClass {
+
+	public static void main(String[] args) {
+		int[] testArray = { 1, 2, 3, 4, 5 };
+		int[][] testArray2 = { { 1, 2, 3, 4, 5}, {6, 7, 8, 9, 10} };
+		int i, j;
+		
+		
+		for(i =0; i<testArray2.length; i++) {
+			
+			for(j=0; j<testArray2[i].length; j++) {
+				System.out.print(testArray2[i][j] + " ");
+			}
+			
+			System.out.println(", \t" + testArray2[i].length);
+			System.out.println();
+		}
+
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package ch2_22_N_Array;
+
+public class NArrayMainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
