@@ -1,0 +1,18 @@
+package ch2_24_ArrayList_scorePrintProject;
+import java.util.ArrayList;
+
+import ch2_21_objectArray.Book;
+
+public class Student {
+	private String name;
+	private int id;
+	
+	ArrayList<Book> library;
+	
+	Student(String name, int id){
+		this.name = name;
+		this.id = id;
+		this.library = new ArrayList<>();
+	}
+
+}

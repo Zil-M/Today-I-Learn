@@ -1,0 +1,10 @@
+package ch2_24_ArrayList_scorePrintProject;
+
+public class ScorePrintMainClass {
+
+	public static void main(String[] args) {
+		Student student1 = new Student(1000, "Student1");
+
+	}
+
+}
