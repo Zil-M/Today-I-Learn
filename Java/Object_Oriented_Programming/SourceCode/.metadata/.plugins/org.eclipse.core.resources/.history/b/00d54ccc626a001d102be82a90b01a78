@@ -1,0 +1,12 @@
+package ch2_23_ArrayList;
+import java.util.ArrayList;
+import ch2_21_objectArray.Book;
+
+public class ArrayListMainClass {
+
+	public static void main(String[] args) {
+		ArrayList<Book> library = new ArrayList<>();
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package ch2_23_ArrayList;
+
+import java.util.ArrayList;
+import ch2_21_objectArray.Book;
+
+public class ArrayListMainClass {
+
+	public static void main(String[] args) {
+		ArrayList<Book> library = new ArrayList<>();
+		
+		library.add(new Book("제목1", "저자1"));
+		library.add(new Book("제목2", "저자2"));
+		library.add(new Book("제목3", "저자3"));
+		library.add(new Book("제목4", "저자4"));
+		
+		for(int i = 0; i < library.size(); i++) {
+			library.get(i).showBookInfo();
+		}
+
+	}
+
+}
