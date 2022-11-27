@@ -1,5 +1,0 @@
-package ch2_19_static_singleton_practice;
-
-public class CarFactory {
-
-}
